@@ -1,4 +1,7 @@
-
+body {
+    scrollbar-width: auto;          /* "auto" or "thin" */
+    scrollbar-color: white white ;   /* scroll thumb and track */
+  }
 section {
     padding: 60px 0;
     overflow: hidden;
