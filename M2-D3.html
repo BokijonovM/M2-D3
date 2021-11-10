@@ -3,59 +3,11 @@
 
 
 <head>
-    <!-- M2-D3 ASSIGNMENT RULES
-        - This challenge should be done in pairs, go in Eduflow to find who you are paired with
-        - Implement one exercise each, switching side from driver and navigator frequently
-        - We suggest you to use Zoom or Google Hangouts to speak and look at each other throughout the whole activity
-
-        - The exercise must be pushed to the repository and linked on EduFlow by the end of the day
-        - You can google / use StackOverflow BUT we suggest you to use just the material provided
-        - To test the page, open it with your browser and use the inspector.
-        - Use Bootstrap4.6 classes to arrange the page layout and components.
-        - Use containers, rows and cols in order to have a working responsive layout.
-
-
-        EXERCISE: 
-        You are creating a website for a Travel Agency.
-        In thins page you will add destinations of places you're dreaming to go to in the near future!
-
-
-        Ex 1) Implement a navigation bar. Connected to all the sections of the page to the menu items. 
-        Ex 2) Add a logo into the navigation bar (can be any image)
-        Ex 3) Add a Jumbotron section with the name and the claim of the tour operator agency
-        Ex 4) Implement the "Deal of the Week" section. In this section you'll display 4 destinations.
-         In this section you should have:
-            - 4 destinations per row when the screen is very large
-            - 3 destinations per row when you are on a tablet (or a smaller window)
-            - 2 destinations per row when you are on a small screen
-
-        Ex 5) Implement the "Welcome Summer" section. In this section you'll propose 6 destinations to your user
-            In this section you should have:
-                - 6 destinations per row when the screen is very large
-                - 3 destinations per row when you are on a tablet (or a smaller window)
-                - 2 destinations per row when you are on a small screen
-        
-        Ex 6) Implement a "Deal of the day" section. In this section you'll have:
-            - 66% of the page with a picture of the destination
-            - 33% with Name, dates, price and a short description
-
-        Ex 7) Make the "Deal of the day" section disappear on mobile screens
-        Ex 8) Add to the Welcome Summer destinations section a large shadow
-        Ex 9) Create a section "Last Minute", in which you'll display the pictures of the destinations as Cards
-        Ex 10) Create a "Testimonial" section, in which the user can find several feedbacks from fake customers
-        Ex 11) Create a footer with the company informations and a "Contact Us" button
-
-        Ex 11) Create a button next to each section to collapse and reopen the given section
-        Ex 12) Create a method that counts the number of "travels" on the page
-        Ex 13) Create a modal view with a message and a email field
-        Ex 14) When the user clicks on "contact us" the modal is displayed
-        Ex 15) Create a function that adds a "HOT" badge to all the "Welcome Summer" offers
-        Ex 16) Create a function to delete all "cards" from the page
-      -->
       <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" 
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css">
       <title>M2-D3</title>
 </head>
 
@@ -101,7 +53,7 @@
           <div class="container"> 
               <div class="row">
                   <div class="col-12 text-center">
-                      <h1>Jumbatron</h1>
+                      <h1>Holiday Galoure</h1>
                       <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, distinctio officia architecto inventore molestiae odit sit enim voluptas ducimus dignissimos?</p>
 
                   </div>
@@ -109,11 +61,11 @@
           </div>
       </section>
 
-<!--Deal of the Week-->
+<div class="split left"><!--Deal of the Week-->
   <section class="container ">
       <div class="row align-items-center row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5 g-3 justify-content-center">
           <div class="col shadow-lg p-3 mb-5 bg-white rounded mx-2">
-            <div class="card shadow-m border-dark border-0" style="margin-bottom: 2 rem;">
+            <div class="card shadow-m border-dark border-0" ">
                 <img src="https://images.unsplash.com/photo-1564490292125-2e3c78a0ef44?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1035&q=80" width="100%" height="100%" alt="Albums">
               <div class="card-body">
                 <h4>Holiday</h4>
@@ -135,7 +87,7 @@
           </div>
           <!---->
           <div class="col shadow-lg p-3 mb-5 bg-white rounded mx-2">
-            <div class="card shadow-m border-dark border-0" style="margin-bottom: 2 rem;">
+            <div class="card shadow-m border-dark border-0" ">
                 <img src="https://images.unsplash.com/photo-1564490292125-2e3c78a0ef44?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1035&q=80" width="100%" height="100%" alt="Albums">
               <div class="card-body">
                 <h4>Holiday</h4>
@@ -157,7 +109,7 @@
           </div>
           <!---->
           <div class="col shadow-lg p-3 mb-5 bg-white rounded mx-2">
-            <div class="card shadow-m border-dark border-0" style="margin-bottom: 2 rem;">
+            <div class="card shadow-m border-dark border-0" ">
                 <img src="https://images.unsplash.com/photo-1564490292125-2e3c78a0ef44?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1035&q=80" width="100%" height="100%" alt="Albums">
               <div class="card-body">
                 <h4>Holiday</h4>
@@ -179,7 +131,7 @@
           </div>
           <!---->
           <div class="col shadow-lg p-3 mb-5 bg-white rounded mx-2">
-            <div class="card shadow-m border-dark border-0" style="margin-bottom: 2 rem;">
+            <div class="card shadow-m border-dark border-0" ">
                 <img src="https://images.unsplash.com/photo-1564490292125-2e3c78a0ef44?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1035&q=80" width="100%" height="100%" alt="Albums">
               <div class="card-body">
                 <h4>Holiday</h4>
@@ -205,14 +157,265 @@
       </div>
   </section>
 
+<!--new Section-->
+<section class="container align-items-center">
+  <!-- Welcome  -->
 
-<!--Holiday 2-->
-              
+    <div class="section-title"> 
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2>Welcome to Summer</h2>
+            </div>
+        </div>
+    </div>
+
+  <div class="row align-items-center row-cols-1 row-cols-sm-3 row-cols-md-4 row-cols-xl-6 row-cols-xxl-12 justify-content-center">
+      <div class="col shadow-lg p-3 mb-5 bg-white rounded mx-2">
+        <div class="card shadow-m border-dark border-0">
+            <img src="https://images.pexels.com/photos/2676642/pexels-photo-2676642.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" width="100%" height="100%" alt="Albums">
+          <div class="card-body">
+            <h4>Italy</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet,</p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Country: </li>
+                <li class="list-group-item">City:</li>
+                <li class="list-group-item">Duration:
+                 </li>
+              </ul>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group btn-block">
+                <!-- <button type="button" class="btn btn-sm my-2 btn-outline-secondary">Book</button> -->
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---->
+      <div class="col shadow-lg p-3 mb-5 bg-white rounded mx-2">
+        <div class="card shadow-m border-dark border-0" ">
+            <img src="https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" width="100%" height="100%" alt="Albums">
+          <div class="card-body">
+            <h4>Maldives</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet,</p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Country: </li>
+                <li class="list-group-item">City:</li>
+                <li class="list-group-item">Duration:
+                 </li>
+              </ul>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group btn-block">
+                <!-- <button type="button" class="btn btn-sm my-2 btn-outline-secondary">Book</button> -->
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---->
+      <div class="col shadow-lg p-3 mb-5 bg-white rounded mx-2">
+        <div class="card shadow-m border-dark border-0" ">
+            <img src="https://images.pexels.com/photos/3787839/pexels-photo-3787839.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" width="100%" height="100%" alt="Albums">
+          <div class="card-body">
+            <h4>Dubai</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet,</p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Country: </li>
+                <li class="list-group-item">City:</li>
+                <li class="list-group-item">Duration:
+                 </li>
+              </ul>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group btn-block">
+                <!-- <button type="button" class="btn btn-sm my-2 btn-outline-secondary">Book</button> -->
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---->
+      <div class="col shadow-lg p-3 mb-5 bg-white rounded mx-2">
+        <div class="card shadow-m border-dark border-0" ">
+            <img src="https://images.pexels.com/photos/1850619/pexels-photo-1850619.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" width="100%" height="100%" alt="Albums">
+          <div class="card-body">
+            <h4>Paris</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet,</p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Country: </li>
+                <li class="list-group-item">City:</li>
+                <li class="list-group-item">Duration:
+                 </li>
+              </ul>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group btn-block">
+                <!-- <button type="button" class="btn btn-sm my-2 btn-outline-secondary">Book</button> -->
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- few  -->
+      <div class="col shadow-lg p-3 mb-5 bg-white rounded mx-2">
+        <div class="card shadow-m border-dark border-0" ">
+            <img src="https://images.pexels.com/photos/372470/pexels-photo-372470.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" width="100%" height="100%" alt="Albums">
+          <div class="card-body">
+            <h4>London</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet,</p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Country: </li>
+                <li class="list-group-item">City:</li>
+                <li class="list-group-item">Duration:
+                 </li>
+              </ul>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group btn-block">
+                <!-- <button type="button" class="btn btn-sm my-2 btn-outline-secondary">Book</button> -->
+              </div>
+
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <!-- few  -->
+      <div class="col shadow-lg p-3 mb-5 bg-white rounded mx-2">
+        <div class="card shadow-m border-dark border-0" ">
+            <img src="https://images.pexels.com/photos/3684396/pexels-photo-3684396.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" width="100%" height="100%" alt="Albums">
+          <div class="card-body">
+            <h4>Istanbul</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet,</p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Country: </li>
+                <li class="list-group-item">City:</li>
+                <li class="list-group-item">Duration:
+                 </li>
+              </ul>
+
+          </div>
+        </div>
+      </div>
+<!-- few        -->
+
+
+</div>
+</section>
+<section id="gallery" class="gallery container align-items-center">
+<div class="container">
+
+  <div class="section-title">
+    <h2>Gallery</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos beatae magnam illo doloribus consequuntur, pariatur quos, quam hic deserunt eum consectetur? Eum rem pariatur alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, labore.</p>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row no-gutters">
+
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href="https://images.pexels.com/photos/2767815/pexels-photo-2767815.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="galelry-lightbox">
+          <img src="https://images.pexels.com/photos/2767815/pexels-photo-2767815.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="img-fluid">
+        </a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href="https://images.pexels.com/photos/2767815/pexels-photo-2767815.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="galelry-lightbox">
+          <img src="https://images.pexels.com/photos/2767815/pexels-photo-2767815.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="img-fluid">
+        </a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href="https://images.pexels.com/photos/2767815/pexels-photo-2767815.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="galelry-lightbox">
+          <img src="https://images.pexels.com/photos/2767815/pexels-photo-2767815.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="img-fluid">
+        </a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href="https://images.pexels.com/photos/2767815/pexels-photo-2767815.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"class="galelry-lightbox">
+          <img src="https://images.pexels.com/photos/2767815/pexels-photo-2767815.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="img-fluid">
+        </a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href="https://images.pexels.com/photos/2767815/pexels-photo-2767815.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="galelry-lightbox">
+          <img src="https://images.pexels.com/photos/2767815/pexels-photo-2767815.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="img-fluid">
+        </a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href="https://images.pexels.com/photos/2767815/pexels-photo-2767815.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="galelry-lightbox">
+          <img src="https://images.pexels.com/photos/2767815/pexels-photo-2767815.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="img-fluid">
+        </a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href="https://images.pexels.com/photos/2767815/pexels-photo-2767815.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="gallery-lightbox">
+          <img src="https://images.pexels.com/photos/2767815/pexels-photo-2767815.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="img-fluid">
+        </a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href="https://images.pexels.com/photos/2767815/pexels-photo-2767815.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="galelry-lightbox">
+          <img src="https://images.pexels.com/photos/2767815/pexels-photo-2767815.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="img-fluid">
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+</section><!-- End Gallery Section -->
+
+
+     
+
+</div> 
+<div class="split right">
+  <!--Deal of the Week-->
+ <section class="container-fluid">
+  
+   <div class="section-title">
+    <h2>Deals of the Week</h2>
+   </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://media.istockphoto.com/photos/enjoying-drinks-and-sunsets-on-our-vacation-picture-id1018301750?b=1&k=20&m=1018301750&s=170667a&w=0&h=OoNgEcc3gKtEl5v8sACT0YoKBs7ohdXPYz6dexJNPv8=" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+ </section>
+ <section class="container-fluid">
+  <div class="card" style="width: 18rem;">
+    <img src="https://images.unsplash.com/photo-1432889490240-84df33d47091?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJlYWNoJTIwaG9saXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+ </section>
+</div>        
             
-    
-
-
-
+  
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>    
 </body>
