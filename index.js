@@ -11,9 +11,19 @@
     You should now see the list-items color and background-color change at the click of the button.
 --> */
 
+window.onload = function (){
+    alert(Welcome)
+}
+
+function cb(color) {
+    document.body.style.background = color;
+}
+
+
 
 const hideOnOff = function(event){
     let hideElement = document.getElementById("hide-on-off")
     let onOff = hideElement.style.display = "none"
     event.target = onOff
 }
+
